@@ -1,0 +1,55 @@
+.login {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 2rem 0rem;
+  
+  }
+  
+  #customButton {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 190px;
+    border-radius: 15px;
+   
+   
+    
+    margin-left: 10px;
+  }
+  
+  #customButton:hover {
+    cursor: pointer;
+  }
+  
+  span.label {
+    
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
+  
+  span.icon {
+    background: url('https://developers-dot-devsite-v2-prod.appspot.com/identity/sign-in/g-normal.png') transparent 10px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+  }
+  
+  span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+  }
